@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-image: url(image.jpg);
+            background-position: center;
+            background-size: cover;
+            padding-top: 3%;  
+            box-sizing: border-box;
+        }
+        .nav-bar{
+            height: 12%;
+            background-color: #000;
+            display: flex;
+            /* align-items: center; */
+        }
+        nav{
+            flex: 1;
+            text-align: center;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 5%;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover{
+            color: darkmagenta;
+        }
+        .main-header{
+            margin-top: 10%;
+            color: #fff;
+            text-align: center;
+            /* flex-basis: 50%; */
+        }
+        span{
+            font-size: large;
+        }
+        button{
+            width: 10vh;
+            color: #000;
+            margin-top: 2%;
+            padding: 12px 0;
+            background: rgb(255, 255, 255);
+            border: 0;
+            border-radius: 1rem;
+        }
+        footer p{
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">EXPLORE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-header">
+            <h1>CHANGE  <span>the</span>  WORLD</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem unde fuga alias dignissimos, tenetur doloremque.</p>
+            <button type="button">Sign Up</button>
+        </div>
+    </div>
+    <footer class="bottom-bar">
+        <p>Copyright &copy; 2022 | All rights are reserved</p>
+    </footer>
+    
+</body>
+</html>
